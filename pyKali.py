@@ -1,4 +1,4 @@
-import pyhelp
+import pySource
 import math
 import os
 import pyautogui
@@ -21,7 +21,7 @@ os.system('color 08')
 def remove(a):
     return command_input.strip(a)
 
-pyhelp.banner()
+pySource.banner()
 
 # console design
 while True:
@@ -40,7 +40,7 @@ while True:
     
     # command Input
     print(' ')
-    command_input = input(Fore.LIGHTBLUE_EX+' ┌── '+Fore.LIGHTGREEN_EX+'(root@kali)'+Fore.LIGHTBLACK_EX+' ~ '+Fore.LIGHTBLUE_EX+f'[{Directory_Now}]\n'+Fore.LIGHTBLUE_EX+' └── # '+Fore.RESET)
+    command_input = input(Fore.LIGHTBLUE_EX+' ┌── '+Fore.LIGHTGREEN_EX+'(root@pykali)'+Fore.LIGHTBLACK_EX+' ~ '+Fore.LIGHTBLUE_EX+f'[{Directory_Now}]\n'+Fore.LIGHTBLUE_EX+' └── # '+Fore.RESET)
 
     # Enter
     def enter():
@@ -55,15 +55,19 @@ while True:
     # Clear
     elif command_input == 'clear':
         os.system('cls')
-        pyhelp.banner()
+        pySource.banner()
 
     # python Run
     elif command_input == 'python':
         os.system('python')
 
+    # Developer
+    elif command_input == 'pykali --developers':
+        pySource.developers()
+
     # --Help
     elif (command_input == 'pykali --help') or (command_input == 'pykali -h'):
-        pyhelp.Help()
+        pySource.Help()
 
     # Ls
     elif command_input == 'ls':
@@ -93,11 +97,12 @@ while True:
         aa = remove('mkdir ')
         os.mkdir(aa)
 
+    # Git
     elif 'git' in command_input:
         aa = remove('git ')
         if 'clone' in aa:
-            bb = remove('clone')
-            os.system(f'git clone {command_input}')
+            bb = aa.strip('clone ')
+            os.system(f'git clone {bb}')
 
     # Error
     else:

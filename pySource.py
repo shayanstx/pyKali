@@ -34,3 +34,16 @@ def Help():
  * Example:
      --> pykali -bg --RED
      --> pykali -opacity --80""")
+
+def programmer(name,mail,insta,twitter):
+    print(Fore.LIGHTBLUE_EX+f" [{name}]\n ---------"+Fore.RESET)
+    print(Fore.LIGHTBLACK_EX+" [ Email ] "+Fore.RESET+mail)
+    print(Fore.LIGHTBLACK_EX+" [ Instagram ] "+Fore.RESET+insta)
+    print(Fore.LIGHTBLACK_EX+" [ twitter ] "+Fore.RESET+twitter)
+
+# Developers
+def developers():
+    print(Fore.LIGHTGREEN_EX+"\n [Developers]\n")
+    programmer('SHAYAN STX','shayanstx@gmail.com','shaayaan.io','shayanstx')
+    print('\n')
+    programmer('MWMD01','mr.ptogrammer.2222@gmail.com','mwmd_01','Mwmd010')
