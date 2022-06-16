@@ -27,10 +27,12 @@ Just use linux command in windows `cmd` and see linux results.
 ```
 
 ## Example
+Your Derectory:
 ```
 ► pwd
 `C:\User\Admin`
 ```
+Change Directory:
 ```
 ► cd Desktop
 ► pwd
