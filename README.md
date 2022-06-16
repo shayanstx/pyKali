@@ -12,3 +12,26 @@ Run `Setup.py` to Setup settings:
 ```
 ► python setup.py
 ```
+
+Now! You have a virtual `Kali Linux` on your System.
+
+## Usage
+Using `pyKali` is very simple.
+Just use linux command in windows `cmd` and see linux results.
+``
+► ls -> List of Directory
+► cd -> Change Directory
+► pwd -> Show Recent Directory
+► mkdir -> Make new Directory
+...
+
+## Example
+```
+► pwd
+`C:\User\Admin`
+```
+```
+► cd Desktop
+► pwd
+`C:\User\Admin\Desktop'
+```
