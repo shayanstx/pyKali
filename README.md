@@ -30,11 +30,15 @@ Just use linux command in windows `cmd` and see linux results.
 Your Derectory:
 ```
 ► pwd
+```
+```
 `C:\User\Admin`
 ```
 Change Directory:
 ```
 ► cd Desktop
 ► pwd
+```
+```
 `C:\User\Admin\Desktop'
 ```
