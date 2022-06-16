@@ -31,7 +31,7 @@ Your Derectory:
 ```
 ► pwd
 ```
-⋅⋅⋅ Result:
+ Result:
 ```
 `C:\User\Admin`
 ```
@@ -40,7 +40,7 @@ Change Directory:
 ► cd Desktop
 ► pwd
 ```
-⋅⋅⋅ Result:
+ Result:
 ```
 `C:\User\Admin\Desktop'
 ```
