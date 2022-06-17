@@ -1,8 +1,6 @@
 # pyKali
 with pyKali, You can have a virtual `Kali Linux` on your windows `CMD` .
 
-[![Build Status](https://travis-ci.org/Mebus/cupp.svg?branch=master)](https://travis-ci.org/Mebus/cupp)
-
 ## Installation
 Clone pyKali on your System:
 ```
